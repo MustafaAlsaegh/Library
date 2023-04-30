@@ -95,7 +95,8 @@ def delete_book_view(request, book_id):
     book.delete()
     return redirect('view_book')
 
-
+def aboutus_view(request):
+    return render(request,'library/aboutus.html')
 
 
 
